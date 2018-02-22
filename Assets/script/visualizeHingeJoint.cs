@@ -27,6 +27,7 @@ public class visualizeHingeJoint : MonoBehaviour {
 			thisLineRenderer.enabled = true;
 			thisLineRenderer.SetPosition (0, playerCharacter.transform.position);
 			thisLineRenderer.SetPosition (1, this.transform.position);
+
 		} else {
 			thisLineRenderer.enabled = false;
 

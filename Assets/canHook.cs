@@ -15,9 +15,9 @@ public class canHook : MonoBehaviour {
 
 	LineRenderer thisLineRenderer;
 
-	public Gradient connectedGradient;
+	//public Gradient connectedGradient;
 
-	public Gradient unconnectedGradient;
+	//public Gradient unconnectedGradient;
 
 	public Material black;
 
@@ -44,13 +44,15 @@ public class canHook : MonoBehaviour {
 			if (thisHingeJoint.connectedBody == null) {
 				if (Input.GetKeyDown (KeyCode.Space)) {
 					thisHingeJoint.connectedBody = playerRB;
-					thisLineRenderer.material = black;
+//					thisLineRenderer.material.color = Color.black;
+					thisLineRenderer.startColor =Color.green;
+					thisLineRenderer.endColor =Color.green;
 
 				}
 			} else if (thisHingeJoint.connectedBody == playerRB) {
-				if (Input.GetKeyDown (KeyCode.Space)) {
+				if (Input.GetKeyUp (KeyCode.Space)) {
 					thisHingeJoint.connectedBody = null;
-					thisLineRenderer.material = green;
+					thisLineRenderer.material.color = Color.green;
 
 
 				}
