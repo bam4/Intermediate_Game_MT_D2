@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Midterm_Project",
+"dataUrl": "Midterm_FirstBuild.data.unityweb",
+"asmCodeUrl": "Midterm_FirstBuild.asm.code.unityweb",
+"asmMemoryUrl": "Midterm_FirstBuild.asm.memory.unityweb",
+"asmFrameworkUrl": "Midterm_FirstBuild.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
