@@ -8,3 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MidtermGame.unity
     guid: f9465458f6bed4439b9b8dac5aafbdc8
+  - enabled: 1
+    path: Assets/menuSystem.unity
+    guid: 296b045cca31c43a4be7a14885226cd5

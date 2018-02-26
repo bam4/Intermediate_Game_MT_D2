@@ -35,7 +35,7 @@ public class hookZoneOperation : MonoBehaviour {
 			inTheZone = true;
 			// Set the hookZoneMaterial to hookZoneMaterial.
 			thisMeshRenderer.material = hookZoneMaterial;
-			Debug.Log ("We are in the zone.");
+//			Debug.Log ("We are in the zone.");
 		}
 	}
 
