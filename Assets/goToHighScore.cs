@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class playAgain : MonoBehaviour {
-
-
+public class goToHighScore : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -14,11 +12,11 @@ public class playAgain : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-
+		
 	}
 
-	public void returnToGame () {
-		SceneManager.LoadScene (1);
+
+	public void GoToHighScoreFunction() {
+		SceneManager.LoadScene (2);
 	}
 }

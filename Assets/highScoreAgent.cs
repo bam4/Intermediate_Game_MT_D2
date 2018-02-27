@@ -65,6 +65,9 @@ public class highScoreAgent : MonoBehaviour {
 	void Start () {
 
 		//PlayerPrefs.DeleteAll ();
+
+		// Turn on high score to start.
+		FalseToAddHighScoreTrueToShowHS (true);
 		
 		// Set the values for the text objects in the high score:
 		SetHighScoreTextValues();

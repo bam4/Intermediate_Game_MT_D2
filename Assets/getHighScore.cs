@@ -46,7 +46,7 @@ public class getHighScore : MonoBehaviour {
 
 		Debug.Log ("highscore is:" + highScore);
 
-		SceneManager.LoadScene (1);
+		SceneManager.LoadScene (2);
 
 
 	}
