@@ -31,6 +31,9 @@ public class openCameraMoveActivator : MonoBehaviour {
 
 
 		} else {
+
+			playerRigidBody = playerObject.GetComponent<Rigidbody> ();
+
 			thisOpeningCameraMove.enabled = false;
 
 			playerRigidBody.useGravity = true;
